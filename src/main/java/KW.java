@@ -1,3 +1,8 @@
+package src.main.java;
+
+
+import com.sun.rowset.internal.Row;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.util.ArrayList;
@@ -12,6 +17,7 @@ public class KW {
 
         FileInputStream excellFile1 = new FileInputStream(new File("/Users/rtyshchenko/Downloads/untitled/src/main/resources/x1.xlsx"));
         FileInputStream excellFile2 = new FileInputStream(new File("/Users/rtyshchenko/Downloads/untitled/src/main/resources/x2.xlsx"));
+
 
         XSSFWorkbook workbook1 = new XSSFWorkbook(excellFile1);
         XSSFWorkbook workbook2 = new XSSFWorkbook(excellFile2);
